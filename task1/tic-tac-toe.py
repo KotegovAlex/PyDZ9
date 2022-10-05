@@ -202,7 +202,7 @@ h = h - 165
 window.geometry(f'335x430+{w}+{h}')
 window.resizable(False, False)
 
-window_back_img = PhotoImage(file='tic_tac_back.png')
+window_back_img = PhotoImage(file=r'task1/tic_tac_back.png')
 lbl_back = Label(window, image=window_back_img)
 
 pixel = PhotoImage(width=1, height=1)
